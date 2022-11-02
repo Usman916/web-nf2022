@@ -1,0 +1,48 @@
+#header {
+    background-color: rgba(245, 194, 132, 0.856);
+    text-align: center;
+    padding: 5px;
+}
+
+h1 {
+    color: rgb(16, 16, 180);
+}
+
+blockquote {
+    background-color: yellow;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul li{
+    display: inline;
+}
+
+body {
+    background: rgb(236, 236, 124);
+}
+
+ul {
+    text-align: center;
+}
+
+.gambar {
+    text-align: center;
+}
+
+.isi {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Besar {
+    font-size: 300%;
+    display: inline;
+    color: blue;
+}
+
+#profil {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.koleksi {
+    text-align: center;    
+}
