@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    text-align: center;
+    font-size: 5ch;
+}
+
+header, footer {
+    background-color: rgb(209, 165, 20);
+    padding: 1.5rem;
+}
+
+main {
+    display: flex;
+    flex: 1;
+}
+
+main article {
+    background-color: rgb(7, 155, 106);
+    flex: 2;
+}
+
+main aside {
+    background-color: rgb(46, 207, 207);
+    flex: 1;
+}
+
+main nav {
+    background-color: rgb(6, 114, 177);
+    flex: 1;
+}
+
