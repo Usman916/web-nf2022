@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>HitungLingkaran</title>
+
+    <script>
+      function calc() {
+        const phi = 3.14;
+        let jarijari = document.getElementById('r').value;
+        let Luas = phi * jarijari ** 2;
+        let Keliling = 2 * phi * jarijari;
+
+        let output = document.getElementById('Hasil');
+        output.value = 'Luas :  ' + Luas + '\n' + 'Keliling :  ' + Keliling;
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Hitung Luas dan Keliling Lingaran</h1>
+
+    <p>Luas = phi * r^2</p>
+    <p>Keliling = 2 * phi * r</p>
+
+    <table>
+      <tr>
+        <td>jari-jari:</td>
+        <td>
+          <input
+            id="r"
+            type="number"
+          />
+        </td>
+        <td><button onclick="calc()">Hitung</button></td>
+      </tr>
+      <tr>
+        <td>Hasil</td>
+        <td>
+          <textarea
+            id="Hasil"
+            rows="5"
+          ></textarea>
+        </td>
+        <td></td>
+      </tr>
+    </table>
+  </body>
+</html>
